@@ -26,8 +26,6 @@ module.exports = NodeHelper.create({
 	socketNotificationReceived: function(notification, payload) {
 		if (notification === "CONFIG") {
 			this.config = payload;
-
-			console.log(this.config);
 		}
 	},
 
