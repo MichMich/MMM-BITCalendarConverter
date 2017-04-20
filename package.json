@@ -1,7 +1,7 @@
 {
   "name": "facebook-calendar-converter",
   "version": "1.0.0",
-  "description": "Converts a facebook eventlist to an ical feed.",
+  "description": "Converts a facebook Bands in Town feed to an ical feed.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,6 @@
   "author": "Michael Teeuw",
   "license": "MIT",
   "dependencies": {
-    "fb": "^1.1.1",
     "moment": "^2.17.1"
   }
 }
